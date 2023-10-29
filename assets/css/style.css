@@ -1,15 +1,91 @@
-/* IMPOSTAZIONI GENERALI */
 
-/* HEADER */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+  body {
+    font-family: 'Work Sans';
+    font-size: 1em;
+    font-weight: 400;
+    margin: auto;
+    padding: 5%;
+    
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    background-image: url(/assets/img/sfondo.png);
+    
 
-/* MAIN */
+  }
+  html {
+    width: 100%;
+    vertical-align: middle;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+  }
+  header {
+    background-color: rgb(40, 130, 150);
+    height: 11em;
+    line-height: 1.5;
+    padding: 10%;
+    text-align: center;
+    
+  }
+  #logo {
+    width: 40%;
+    margin-top: 3%;
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+  }
+  main {
+    background-color: white;
+    margin-top: 5%;
+    padding: 5%;
+  }
+  main > p, h1,h2, h3, h4, h5, h6, table, iframe, ul, ol {
+    margin: 5%;
+  }
+   main > h1, h2, h3, h4, h5, h6 {font-size: 1.3em;
 
-/* TABELLE */
+  }
+  main > p, table, ul, ol {
+    font-size: 0.9em;
+  }
+  nav >ul {
+    list-style: none;
+  }
+  ol {
+    list-style: decimal;
+  }
+  ul {
+    list-style: disc;
+  }
+  article {
+    text-align: center;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: rgba(128, 128, 128, 0.282);
 
-/* FORM */
+  }
+  aside {
+    text-align: center;
+    margin-top: 5%;
+    background-color: rgba(128, 128, 128, 0.282);
+    padding-top: 10%;
+    padding-bottom:10% ;
+     }
+  footer {width: 90%;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: rgb(36, 127, 130);
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    vertical-align: middle;
+    height: 6rem;
+    line-height: 2;
+    
+  }
+  #iframe {
+border-radius: 12px;
+}
 
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
